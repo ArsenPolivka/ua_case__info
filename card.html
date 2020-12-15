@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ua Case - магазин мобільних аксесуарів | Замовлення</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/order-form.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" href="img/favicon3.ico" type="image/x-icon">
+</head>
+<body class="container">
+    <h1>Оформлення замовлення</h1>
+<form action="https://formspree.io/uacase75@gmail.com" method="POST">
+  <div class="form-row">
+    <div class="col">
+      <input type="text" class="form-control"
+      name="name" placeholder="Ім'я">
+    </div>
+    <div class="col">
+      <input type="text" name="surname" class="form-control" placeholder="Прізвище">
+    </div>
+  </div>
+    <div class="form-row">
+    <div class="col">
+      <input type="text" class="form-control" name="number" placeholder="Номер телефону">
+    </div>
+    <div class="col">
+      <input type="email" class="form-control" name="email" placeholder="Email">
+    </div>
+  </div>
+  <label class="shipping">Доставка:</label>
+  <div class="custom-control custom-radio">
+    <input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked" value="NewPost" required>
+    <label class="custom-control-label" for="customControlValidation2">Нова Пошта</label>
+  </div>
+  <div class="custom-control custom-radio mb-3">
+    <input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked" value="UkrPost" required>
+    <label class="custom-control-label" for="customControlValidation3">УкрПошта</label>
+    <div class="invalid-feedback">More example invalid feedback text</div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">Місто</label>
+      <input type="text" class="form-control" id="inputCity" name="city">
+    </div>
+        <div class="form-group">
+    <label for="inputAddress">Номер відділення (Нова Пошта)</label>
+    <input type="text" class="form-control" id="inputAddress" name="numberOfPost" placeholder="Напр. №1">
+  </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">Область</label>
+      <select id="inputState" class="form-control" name="region">
+        <option selected>Виберіть...</option>
+        <option>Вінницька область</option>
+        <option>Волинська область</option>
+        <option>Дніпропетровська область</option>
+        <option>Донецька область</option>
+        <option>Закарпатська область</option>
+        <option>Запорізька область</option>
+        <option>Івано-Франківська область</option>
+        <option>Київська область</option>
+        <option>Кіровоградська область</option>
+        <option>Луганська область</option>
+        <option>Львівська область</option>
+        <option>Миколаївська область</option>
+        <option>Одеська область</option>
+        <option>Полтавська область</option>
+        <option>Рівненська область</option>
+        <option>Сумська область</option>
+        <option>Тернопільська область</option>
+        <option>Харківська область</option>
+        <option>Херсонська область</option>
+        <option>Хмельницька область</option>
+        <option>Черкаська область</option>
+        <option>Чернівецька область</option>
+        <option>Чернігівська область</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Поштовий індекс (УкрПошта)</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+<label class="payment">Спосіб оплати:</label>
+  <div class="custom-control custom-radio">
+    <input type="radio" class="custom-control-input" id="customControlValidation4" name="radio-payment" value="postPayment" required>
+    <label class="custom-control-label" for="customControlValidation4">Наложений платіж</label>
+  </div>
+  <div class="custom-control custom-radio mb-3">
+    <input type="radio" class="custom-control-input" id="customControlValidation5" name="radio-payment" value="cardPayment" required>
+    <label class="custom-control-label" for="customControlValidation5">УкрПошта</label>
+    <div class="invalid-feedback">More example invalid feedback text</div>
+  </div>
+    <div class="link">
+      <input type="link" name="link" class="form-control" placeholder="Посилання на картинку для друку">
+    </div>
+   <button type="submit" class="btn btn-primary">Замовити</button>
+</form>
+
+<a href="index.html"><h4 class="return">Повернутися на Головну</h4></a>
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script href="js/index.js"></script>
+</body>
+</html>
